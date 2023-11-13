@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.7469362745098039) 41%, rgba(242,242,242,0.7049194677871149) 66%, rgba(242,242,242,0.8561799719887955) 100%),url(images/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+.container{
+  margin: auto;
+  width: 500px;
+  height: 700px;
+  background: rgb(255,255,255);
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+div.icon{
+margin-left: 200px;
+}
+
+header{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 10px;
+}
+p{
+  font-size: 16px;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 15px;
+  line-height: 25px;
+  color: rgb(58, 58, 58);
+  letter-spacing: 1px;
+}
+hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+label{
+  line-height: 90px;
+}
+pre{
+  text-align: center;
+  color: rgb(58, 58, 58);
+  margin-top: 30px;
+  
+}
+pre a{
+  text-decoration: none;
+  color: rgb(23, 23, 23);
+}
+.return-btn{
+  margin-top: -770px;
+  margin-left: 5px;
+  max-width: 90000px;
+  opacity: 30%;
+  
+  }
